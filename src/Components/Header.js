@@ -6,15 +6,16 @@ class Header extends React.Component {
     return (
 
       <nav className="navigation">
-        <Link to="/" className="logoStyle">BookStore CMS</Link>
+        <Link to="/" className="logoStyle">Book Store Logo</Link>
 
         <ul className="nav-header">
           <li className="nav-link">
             <Link className="nav-link" to="/Book">Books</Link>
           </li>
           <li className="nav-link">
-            <Link className="nav-link" to="/Categories">Categories</Link>
+            <Link className="nav-link" to="/Catogeries">Categories</Link>
           </li>
+          
 
         </ul>
 

@@ -1,18 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.main-container {
-  background: #1d7874;
-  height: 100vh;
-  color: #fff;
-  padding: 20px 50px;
-  
-  
-}
-
 .navigation .nav-header {
   padding: 0;
   margin: 0;
@@ -22,7 +7,7 @@
 }
 
 .navigation {
-  color: #1d7874;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -34,8 +19,7 @@
   padding-right: 21px;
   font-size: 18px;
   text-transform: uppercase;
-  color: #fff;
-  padding: 5px 10px;
+  color: rgb(245 163 11);
 }
 
 .navigation .nav-link:hover {
@@ -44,29 +28,11 @@
 
 .logoStyle {
   text-decoration: none;
-  font-size: 3em;
+  font-size: 2em;
   text-transform: uppercase;
-  color: #071e22;
-
+  color: rgb(245 163 11);
 }
 
 .list-style {
   list-style: none;
-  font-size: 1.5rem;
-}
-
-.book-list {
-  padding: 5px 10px;
-}
-
-.book-list button {
-  padding: 10px;
-}
-
-.title-author input {
-  padding: 10px;
-}
-
-.title-author button {
-  padding: 10px;
 }

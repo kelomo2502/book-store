@@ -6,7 +6,7 @@ class Categories extends React.Component {
 
       <div>
         <button>Check Status</button>
-
+        
       </div>
     );
   }
