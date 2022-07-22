@@ -8,8 +8,8 @@ class Book extends React.Component {
             books: [
               {
                 id: 1,
-                title: "Setting Development Environment",
-                author: "David Johnson"
+                title: "Things Fall Apart",
+                author: "Chinua Achebe"
               },
               
             ]

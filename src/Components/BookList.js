@@ -6,7 +6,7 @@ class BookList extends React.Component {
     
   render() {
     return (
-        <ul>
+        <ul className='book-list'>
                  {this.props.books.map(todo =>  (   
                 <li className='list-style' key={todo.id}> 
                 <h3>{todo.title}</h3> 

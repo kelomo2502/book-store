@@ -9,8 +9,8 @@
 .navigation {
   color: white;
   display: flex;
-  justify-content: space-between;
-  align-items: stretch;
+  justify-content: flex-start;
+  align-items: center;
   gap: 2rem;
   padding: 0 1rem;
 }
@@ -19,7 +19,8 @@
   padding-right: 21px;
   font-size: 18px;
   text-transform: uppercase;
-  color: rgb(245 163 11);
+  color: #121212;
+  font-size: 0.813rem;
 }
 
 .navigation .nav-link:hover {
@@ -30,9 +31,22 @@
   text-decoration: none;
   font-size: 2em;
   text-transform: uppercase;
-  color: rgb(245 163 11);
+  color: #0290ff;
 }
 
 .list-style {
   list-style: none;
+  font-size: 1.875rem;
+  font-weight: 800;
+}
+.form-input > input {
+  padding: 5px 10px;
+}
+
+.form-input button {
+  padding: 5px 10px;
+}
+
+.removeBtn {
+  padding: 5px 10px;
 }
