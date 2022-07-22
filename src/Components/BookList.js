@@ -3,7 +3,7 @@ import React from 'react';
 class BookList extends React.Component {
   render() {
     return (
-      <ul className='book-list'>
+      <ul className="book-list">
         {this.props.books.map((todo) => (
           <li className="list-style" key={todo.id}>
             <h3>{todo.title}</h3>

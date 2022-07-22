@@ -3,7 +3,7 @@ import React from 'react';
 class FormInput extends React.Component {
   render() {
     return (
-      <div className='title-author'>
+      <div className="title-author">
         <h3>ADD NEW BOOK</h3>
         <input type="text" placeholder="Enter Title" />
         <input type="text" placeholder="Enter Author" />
