@@ -16,7 +16,7 @@ class App extends React.Component {
           <Routes>
             <Route path="/Book" element={<Book />} />
             <Route index element={<Book />} />
-            <Route path="/Catogeries" element={<Categories />} />
+            <Route path="/Categories" element={<Categories />} />
             
           </Routes>
 
