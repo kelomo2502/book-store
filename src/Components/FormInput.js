@@ -6,7 +6,7 @@ class FormInput extends React.Component {
     
   render() {
     return (
-        <div>
+        <div className='form-input'>
             <h3>ADD NEW BOOK</h3>
             <input type="text" placeholder='Enter Title'/>
             <input type="text" placeholder='Enter Author'/>
