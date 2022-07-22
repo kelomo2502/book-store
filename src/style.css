@@ -17,7 +17,6 @@
 
 .nav-link {
   padding-right: 21px;
-  font-size: 18px;
   text-transform: uppercase;
   color: #121212;
   font-size: 0.813rem;
@@ -39,6 +38,7 @@
   font-size: 1.875rem;
   font-weight: 800;
 }
+
 .form-input > input {
   padding: 5px 10px;
 }
