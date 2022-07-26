@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap';
 
 header {
   display: flex;
@@ -23,7 +23,7 @@ header {
 .BOOKS {
   width: 3.688rem;
   height: 1rem;
- font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;
