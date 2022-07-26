@@ -1,27 +1,22 @@
-import React from 'react';
+import React from 'react'
+
 import { Link } from 'react-router-dom';
+import './Header.css';
 
-class Header extends React.Component {
-  render() {
-    return (
-
-      <nav className="navigation">
-        <Link to="/" className="logoStyle">Book Store Logo</Link>
-
-        <ul className="nav-header">
-          <li className="nav-link">
-            <Link className="nav-link" to="/Book">Books</Link>
-          </li>
-          <li className="nav-link">
-            <Link className="nav-link" to="/Catogeries">Categories</Link>
-          </li>
-          
-
-        </ul>
-
-      </nav>
-    );
-  }
-}
+const Header = () => (
+  <header>
+    <h1 className="Bookstore-CMS">Bookstore CMS</h1>
+    <nav className="nav">
+      <ul className="d-flex">
+        <li>
+          <Link className="BOOKS" to="/">Books</Link>
+        </li>
+        <li>
+          <Link className="CATEGORIES" to="categories">Categories</Link>
+        </li>
+      </ul>
+    </nav>
+  </header>
+);
 
 export default Header;

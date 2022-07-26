@@ -1,15 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-class Categories extends React.Component {
-  render() {
-    return (
-
-      <div>
-        <button>Check Status</button>
-        
-      </div>
-    );
-  }
-}
+const Categories = () => (
+  <section className="categories-section">
+    <h1 className="categories-progress">Coming Soon</h1>
+    <button type="button">Check Status</button>
+  </section>
+);
 
 export default Categories;

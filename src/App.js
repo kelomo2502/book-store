@@ -1,31 +1,17 @@
-import React from 'react';
-import './style.css';
-import { Route, Routes } from 'react-router-dom';
-import Header from './Components/Header'
-import Book from './Components/Books';
-import Categories from './Components/Categories';
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './components/Home';
+import Categories from './components/Categories';
 
-
-class App extends React.Component {
-  render() {
-    return (
-      <>
-        <Header />
-        <div className="container">
-
-          <Routes>
-            <Route path="/Book" element={<Book />} />
-            <Route index element={<Book />} />
-            <Route path="/Categories" element={<Categories />} />
-            
-          </Routes>
-
-        </div>
-
-      </>
-
-    );
-  }
-}
+const App = () => (
+  <BrowserRouter>
+    <Header />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/categories" element={<Categories />} />
+    </Routes>
+  </BrowserRouter>
+);
 
 export default App;
