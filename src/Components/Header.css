@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap';
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 header {
   display: flex;
@@ -8,10 +8,10 @@ header {
 }
 
 .Bookstore-CMS {
-  width: 18rem;
-  height: 3rem;
-  font-size: 2.1rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  width: 15rem;
+  height: 2.313rem;
+  font-size: 1.875rem;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -23,7 +23,7 @@ header {
 .BOOKS {
   width: 3.688rem;
   height: 1rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;
@@ -37,7 +37,7 @@ header {
   width: 6.563rem;
   height: 1rem;
   opacity: 0.5;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;

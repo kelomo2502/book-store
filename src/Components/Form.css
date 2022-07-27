@@ -13,20 +13,16 @@ form {
 
 .form-book-title {
   width: 40%;
-  padding: 0.5rem;
 }
 
 .form-book-category {
   width: 25%;
-  padding: 0.5rem;
 }
 
 .select {
   width: 100%;
-  padding: 0.5rem;
 }
 
 .add-btn {
   width: 15%;
-  padding: 0.5rem;
 }

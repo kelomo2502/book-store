@@ -6,19 +6,22 @@ import './Book.css';
 
 const Book = (props) => {
   const {
-    id, genre, title, author,
+    genre, title, author,
   } = props;
 
-  const dispatch = useDispatch;
+  const dispatch = useDispatch();
 
   const handleRemoveClick = () => {
-    dispatch(deleteBook({ id }));
+    console.log({ title }, 'click');
+    dispatch(deleteBook({ title }));
   };
 
   return (
     <li className="Lesson-Panel">
       <div className="book-header">
-        <span className="School-of">{genre}</span>
+        <span className="School-of">
+          {genre}
+        </span>
         <h3 className="Title">{title}</h3>
         <p className="Suzanne-Collins">{author}</p>
         <div className="book-header-buttons">
@@ -33,7 +36,6 @@ const Book = (props) => {
 };
 
 Book.propTypes = {
-  id: PropTypes.instanceOf(Date).isRequired,
   genre: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
