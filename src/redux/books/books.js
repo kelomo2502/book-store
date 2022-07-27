@@ -13,11 +13,7 @@ const newBook = (action) => {
   };
 };
 
-const removeBook = (state = [], action) => {
-  console.log(action.title);
-  const books = state.filter((book) => book.title !== action.title);
-  return books;
-};
+
 
 export default function booksReducer(state = [], action) {
   let books = [];
