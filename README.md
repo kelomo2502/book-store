@@ -1,68 +1,68 @@
-# Book Store
+# Book-store
+Book-store  built with React 
 
-> "Math magicians" is a website for all reader. It is a Single Page App (SPA) that allows users to:
+The functionalities are:
+- Display a list of books.
+- Add a book.
+- Remove a selected book.
 
-- Add a book the want to read
-- Remove the book once they are done reading
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-
-## Link to Live Demo
-- [Live Demo](https://henrycode460.github.io/book-store/)
+> Using HTML, CSS, JavaScript and react
 
 
 
-## Authors
+## Available Scripts
 
-👤 **Henry Varflay Singbeh**
+In the project directory, you can run:
 
-- GitHub: [@githubhandle](https://github.com/henrycode460)
-- Twitter: [@twitterhandle](https://twitter.com/460code)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/henry-varflay-singbeh-75707b229/)
+### `npm run build`
+
+Runs the app in the development mode.\
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+
+### `npm run start`
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
 ## Built With
 
-- ![](https://img.shields.io/badge/Github-blueviolet)
-- ![](https://img.shields.io/badge/Javascript-blue)
-- ![](https://img.shields.io/badge/HTML-purple) 
-- ![](https://img.shields.io/badge/CSS-blue)
-- ![](https://img.shields.io/badge/WEBPACK-violet)
-- ![](https://img.shields.io/badge/Barbel-violet)
-- ![](https://img.shields.io/badge/API-violet)
-- ![](https://img.shields.io/badge/JSON-violet)
+- HTML, CSS, JavaScript and react
 
-## Setup
-To get this project up and running, you should do the following;
-If you wish to run the project locally, please do the following:
+## Getting Started
 
-1.- Clone the repository to your local machine.
-2.- Install Node.js and npm if you haven't already.
-   To install Node.js, follow the instructions on [Node.js](https://nodejs.org/en/).
-   
-   To install npm with the necessary dependencies, run the following command in your terminal:
-   ``` bash
-   npm install 
-   ```
+To get a local copy up follow these simple example steps.
 
+1. Clone this repository or download the Zip folder:
 
+**``https://github.com/kelomo2502/book-store.git``**
 
-3.- Once you have the setup and the project locally, you can run the project using the following command in your terminal:
-``` bash
-npm run build
-```
-4.- and if you want to watch the changes live, run the following command (it will run the website on localhost:3000):
-``` bash
-npm start
-```
+1. Navigate to the location of the folder in your machine:
 
+**``you@your-Pc-name:~$ cd <folder>``**
 
-## 🤝 Contributing
+### Prerequisites
 
-Contributions, issues, and feature requests are welcome!
+- GIT, NODE, NPM
 
-Feel free to check the [issues page](https://github.com/henrycode460/book-store/issues).
+## Author
+
+👤 **Oyewunmi Gbenga**
+
+- Github: [@kelvin2502](https://github.com/kelvin2502)
+- linkedin: [@oyewunmi gbenga](https://www.linkedin.com/in/oyewunmi-gbenga-24316949/)
+- Twitter: [@kelomoJs](https://twitter.com/kelomoJs)
+
+## Credits
+
+Template from this [MICROVERSE](https://www.microverse.org/)
+
+##  contributing
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project and how we manage to build it!
+
+## 📝 License
+
+
+This project is [MIT](./MIT.md) licensed
