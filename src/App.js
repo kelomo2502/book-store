@@ -3,9 +3,9 @@ import {
   Route,
 } from 'react-router-dom';
 import './App.css';
-import BooksList from './components/BooksList';
-import Categories from './components/Categories';
-import Header from './components/Header';
+import BooksList from './Components/BooksList';
+import Categories from './Components/Categories';
+import Header from './Components/Header';
 import React from 'react'
 
 function App() {
