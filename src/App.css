@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
-
 :root {
   --primary-color: #0290ff;
   --pale-blue: #4386bf;
@@ -8,7 +6,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #121212;
   background-color: #fafafa;
 }
@@ -32,6 +30,7 @@ header h1 {
   margin-right: 3rem;
   color: var(--primary-color);
   font-size: 1.875rem;
+  font-weight: 900;
 }
 
 .nav-link {
@@ -62,11 +61,10 @@ main {
   margin: 0 0.063rem 0.938rem 0;
   background-color: #fff;
   box-sizing: border-box;
-  font-family: 'Roboto Slab', serif;
 }
 
 .book-category {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   margin: 0;
   font-size: 0.875rem;
   font-weight: bold;
@@ -178,7 +176,7 @@ main {
 }
 
 .percentage {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 2rem;
   margin-bottom: 0;
   margin-top: 10px;
@@ -186,7 +184,7 @@ main {
 
 .completed {
   margin-top: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 0.875rem;
   opacity: 0.5;
 }
@@ -314,7 +312,8 @@ hr {
   }
 
   .nav-link {
-    font-size: 12px;
+    font-size: 14px;
     margin-right: 15px;
+    font-weight: 700;
   }
 }
