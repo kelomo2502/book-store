@@ -8,6 +8,7 @@ const Header = () => (
       <Link to="/" className="nav-link">BOOKS</Link>
       <Link to="/categories" className="nav-link">CATEGORIES</Link>
     </nav>
+    <i className="fas fa-user-alt"></i>
   </header>
 );
 

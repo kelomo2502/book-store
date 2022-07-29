@@ -25,6 +25,11 @@ header {
   z-index: 3;
 }
 
+header i {
+  color: var(--primary-color);
+  border: 2px solid red;
+}
+
 header h1 {
   margin: 0;
   margin-right: 3rem;
