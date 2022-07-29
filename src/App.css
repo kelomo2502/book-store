@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  position: fixed;
+  position: absolute;
   top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -26,7 +26,7 @@ header {
   padding-right: 1.1rem;
   background-color: #fff;
   z-index: 3;
-  margin-bottom: 2.3rem;
+  
 }
 
 header i {
@@ -36,6 +36,7 @@ header i {
 .logo-nav {
   display: flex;
   align-items: center;
+  
 }
 
 header h1 {
