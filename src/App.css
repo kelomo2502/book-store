@@ -26,7 +26,6 @@ header {
   padding-right: 1.1rem;
   background-color: #fff;
   z-index: 3;
-  
 }
 
 header i {
@@ -36,7 +35,6 @@ header i {
 .logo-nav {
   display: flex;
   align-items: center;
-  
 }
 
 header h1 {
@@ -52,10 +50,6 @@ header h1 {
   margin-right: 2.563rem;
   text-decoration: none;
   letter-spacing: 1.9px;
-}
-
-.categories {
-  margin-right: 0 auto;
 }
 
 main {
