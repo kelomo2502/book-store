@@ -9,7 +9,6 @@ const BooksList = () => {
   useEffect(() => {
     dispatch(displayBooks())
   },[dispatch])
-  dispatch(displayBooks());
   const books = useSelector((state) => state.books);
   return (
     <section id="books-page">
