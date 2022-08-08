@@ -1,16 +1,13 @@
-import { combineReducers, createStore } from 'redux';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
 import booksReducer from './books/books';
 import categoriesReducer from './categories/categories';
 
-const initialState = {
-  books: [{
-    id: 1,
-    title: 'Things fall apart ',
-    author: 'Chinua Achebe',
-  }],
-};
+const rootReducer = combineReducers({
+  books: booksReducer,
+  categories: categoriesReducer,
+});
 
-const rootReducer = combineReducers({ books: booksReducer, categories: categoriesReducer });
-const store = createStore(rootReducer, initialState);
+const store = createStore(rootReducer, applyMiddleware(thunk));
 
 export default store;
