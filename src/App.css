@@ -12,17 +12,29 @@ body {
 }
 
 header {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
-  width: 100vw;
+  width: 75%;
   height: 60px;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding-left: 6.25rem;
+  padding-left: 1.6rem;
+  padding-right: 1.1rem;
   background-color: #fff;
   z-index: 3;
+}
+
+header i {
+  color: var(--primary-color);
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
 }
 
 header h1 {
