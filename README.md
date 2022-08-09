@@ -8,8 +8,7 @@ The functionalities are:
 
 > Using HTML, CSS, JavaScript and react
 
-
-
+##Live Demo [https://book-store-kelomo2502.herokuapp.com/]
 ## Available Scripts
 
 In the project directory, you can run:
